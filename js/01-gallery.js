@@ -3,8 +3,6 @@ import { galleryItems } from "./gallery-items.js";
 
 const gallery = document.querySelector(".gallery");
 
-const galleryItemImage = document.querySelector(".gallery__image");
-
 galleryItems.forEach(function (galleryItem) {
   const galleryItemDiv = document.createElement("div");
   galleryItemDiv.classList.add("gallery__item");
@@ -27,4 +25,20 @@ for (const galleryItemLink of galleryItemLinkAll) {
   galleryItemLink.addEventListener("click", (event) => {
     event.preventDefault();
   });
+}
+
+const galleryItemDivAll = document.querySelectorAll(".gallery__item");
+
+const imageOriginal = galleryItems.map((galleryItem) => galleryItem.original);
+
+for (let i = 0; i < galleryItemDivAll.length; i++) {
+  galleryItemDivAll[i].onclick = () => {
+    basicLightbox
+      .create(
+        `
+        <img width="1400" height="900" src="${imageOriginal[i]}">
+      `
+      )
+      .show();
+  };
 }
