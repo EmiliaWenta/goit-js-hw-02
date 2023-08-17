@@ -34,9 +34,10 @@ function selectedImage(event) {
   event.preventDefault();
 
   const image = event.target.dataset.source;
+  const imageAlt = event.target.alt;
 
   const instance = basicLightbox.create(`
-      <img src="${image}" width="800" height="600">
+      <img src="${image}" width="800" height="600" alt="${imageAlt}">
    `);
 
   instance.show();
