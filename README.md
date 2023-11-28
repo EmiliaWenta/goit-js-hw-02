@@ -1,11 +1,3 @@
-#
-
-The purpose of the project was create: 
-1. Image gallery using BasicLightbox library.
-2. Image gallery using SimpleLightbox library.
-
-
-
 # goit-js-hw-02
 
 > Task nr 2 from GoIT course - module: JS Live demo
