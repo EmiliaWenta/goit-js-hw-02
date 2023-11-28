@@ -1,7 +1,7 @@
-# goit-js-hw-02
+# goit-js-hw-07
 
-> Task nr 2 from GoIT course - module: JS Live demo
-> [_here_](https://emiliawenta.github.io/goit-js-hw-02/).
+> Task nr 7 from GoIT course - module: JS Live demo
+> [_here_](https://emiliawenta.github.io/goit-js-hw-07/).
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ https://github.com/EmiliaWenta/goit-js-hw-02/assets/126571469/f77c7c89-ef95-4b43
 To run this project:
 
 ```
-$ cd ../ goit-js-hw-02/
+$ cd ../ goit-js-hw-07/
 $ go live
 ```
 
